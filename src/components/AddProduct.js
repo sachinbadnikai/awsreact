@@ -7,7 +7,7 @@ const AddProduct = () => {
     const saveProduct = async (e) => {
         console.log("title",title);
         e.preventDefault();
-        await axios.post('http://localhost:7000/products',{
+        await axios.post('13.233.126.68:7000/products',{
             title: title,
         });
     }
