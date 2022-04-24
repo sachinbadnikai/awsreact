@@ -7,7 +7,7 @@ const AddProduct = () => {
     const saveProduct = async (e) => {
         console.log("title",title);
         e.preventDefault();
-        await axios.post('http://localhost:5000/products',{
+        await axios.post('http://localhost:7000/products',{
             title: title,
         });
     }
