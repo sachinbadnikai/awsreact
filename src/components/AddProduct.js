@@ -26,7 +26,7 @@ const AddProduct = () => {
                     />
                 </div>
                 <div className="field">
-                    <button className="button is-primary">Save button</button>
+                    <button className="button is-primary">Save b</button>
                 </div>
             </form>
         </div>
